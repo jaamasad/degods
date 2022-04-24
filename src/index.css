@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  background-color: #ffefeb;
+}
+button {
+  font-family: monospace;
+  cursor: pointer;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  align-items: center;
+}
+.wallet-btn {
+  height: 45px;
+  padding: 0 15px;
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+  font-weight: 400;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.hero-img {
+  max-width: 400px;
+  margin: auto;
+}
+.hero-img img {
+  width: 100%;
+}
+.react-tabs__tab-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tab-container .react-tabs__tab {
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-family: monospace;
+  border-radius: 0.25rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  list-style: none;
+  outline: none;
+  line-height: 22px;
+}
+.tab-container .react-tabs__tab:hover {
+  background-color: #e5e7eb;
+}
+.react-tabs__tab--selected {
+  background-color: #6b73fb !important;
+  color: white;
+}
+.card {
+  max-width: 329px;
+  box-sizing: border-box;
+  padding: 1.25rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0/0.1), 0 2px 4px -2px rgb(0 0 0/0.1);
+  margin-bottom: 40px;
+  border-radius: 0.5rem;
+  transform: translateY(0);
+  transition: transform 0.4s;
+  cursor: pointer;
+  margin: 1.25rem;
+}
+.card:hover {
+  box-shadow: 0 20px 25px -5px rgb(0 0 0/0.1), 0 8px 10px -6px rgb(0 0 0/0.1);
+  transform: translatey(-0.5rem);
+  transition: transform 0.4s;
+}
+.card-img img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.card h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+.sold-winner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sold-winner span,
+.sold-winner p {
+  padding: 1.25rem;
+  margin: 0;
+}
+.end-date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle {
+  width: 0.75rem;
+  height: 0.75rem;
+  background: #4ed74e;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+.card-btn {
+  display: flex;
+  margin: auto;
+  margin-top: 1.25rem;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  background-color: #6b73fb;
+  color: white;
+  outline: none;
+  border: none;
+  display: flex;
+}
+.raffles-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+}
+.auction .sold-winner {
+  flex-direction: column;
+}
+.auction .sold-winner span,
+.auction .sold-winner p {
+  padding: 0;
+  line-height: 1.75rem;
+}
+.auction .sold-winner p {
+  font-size: 1.125rem;
+}
+.auction .card-btn,
+.auction .circle {
+  background-color: #272727;
+}
