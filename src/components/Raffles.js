@@ -1,54 +1,24 @@
 import React from "react"
+import { useNavigate } from "react-router-dom"
 import Card from "./Card"
-const CARD_DATA = [
-  {
-    image: "/images/1.jpg",
-    heading: "Jikan WL",
-    sold: "245",
-    winner: "89",
-    ends: "02d:04h:2m:2s",
-  },
-  {
-    image: "/images/1.jpg",
-    heading: "Jikan WL",
-    sold: "245",
-    winner: "89",
-    ends: "02d:04h:2m:2s",
-  },
-  {
-    image: "/images/1.jpg",
-    heading: "Jikan WL",
-    sold: "245",
-    winner: "89",
-    ends: "02d:04h:2m:2s",
-  },
-  {
-    image: "/images/1.jpg",
-    heading: "Jikan WL",
-    sold: "245",
-    winner: "89",
-    ends: "02d:04h:2m:2s",
-  },
-  {
-    image: "/images/1.jpg",
-    heading: "Jikan WL",
-    sold: "245",
-    winner: "89",
-    ends: "02d:04h:2m:2s",
-  },
-]
-
+import RaffleData from "../Data/RaffleData.json"
 const Raffles = () => {
+  const navigate = useNavigate()
+
+  const handleSelection = (id) => {
+    navigate(`/raffle/${id}`)
+  }
   return (
     <div className="raffles-container">
-      {CARD_DATA.map((item, key) => (
-        <Card 
-        key={key}
-        image={item.image}
-        heading={item.heading}
-        sold={item.sold}
-        winner={item.winner}
-        ends={item.ends}
+      {RaffleData.map((item, key) => (
+        <Card
+          onCardClick={() => handleSelection(item.id)}
+          key={key}
+          image={item.image}
+          heading={item.heading}
+          sold={item.sold}
+          winner={item.winner}
+          ends={item.ends}
         />
       ))}
     </div>

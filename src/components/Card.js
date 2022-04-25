@@ -1,11 +1,11 @@
 import React from "react"
 
 const Card = (props) => {
-  const { image, heading, sold, winner, ends, auctions, winningBid } = props
+  const { image, heading, sold, winner, ends, auctions, winningBid, onCardClick } = props
   return (
     <div>
       {auctions ? (
-        <div className="card auction">
+        <div className="card auction" onClick={onCardClick}>
           <div className="card-img">
             <img src={image} alt="" />
           </div>
@@ -20,7 +20,7 @@ const Card = (props) => {
           <button className="card-btn">View winners</button>
         </div>
       ) : (
-        <div className="card">
+        <div className="card" onClick={onCardClick}>
           <div className="card-img">
             <img src={image} alt="" />
           </div>
