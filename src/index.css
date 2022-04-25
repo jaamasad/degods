@@ -259,3 +259,17 @@ margin: 1rem;
 .auction-table table td {
   text-align: center;
 }
+.auction-hero-img {
+  max-width: 20rem !important;
+}
+@media screen and (max-width: 768px) {
+  .aution-nav {
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .name-socio {
+    flex-direction: column;
+  }
+
+}
