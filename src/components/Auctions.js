@@ -1,41 +1,18 @@
 import React from "react"
+import { useNavigate } from 'react-router-dom';
 import Card from "./Card"
-const CARD_DATA = [
-  {
-    image: "/images/2.png",
-    heading: "DeGods x MagnumAI 2",
-    winningBid: "760 $DUST",
-    winner: "89",
-    ends: "02d:04h:2m:2s",
-  },
-  {
-    image: "/images/3.gif",
-    heading: "DeGods x MagnumAI 2",
-    winningBid: "760 $DUST",
-    winner: "89",
-    ends: "02d:04h:2m:2s",
-  },
-  {
-    image: "/images/3.gif",
-    heading: "DeGods x MagnumAI 2",
-    winningBid: "760 $DUST",
-    winner: "89",
-    ends: "02d:04h:2m:2s",
-  },
-  {
-    image: "/images/3.gif",
-    heading: "DeGods x MagnumAI 2",
-    winningBid: "760 $DUST",
-    winner: "89",
-    ends: "02d:04h:2m:2s",
-  }
-]
-
+import AuctionData from "../Data/AuctionData.json"
 const Auctions = () => {
+  const navigate = useNavigate();
+
+  const handleSelection=(id)=>{
+   navigate(`/auction/${id}`); 
+  }
   return (
     <div className="raffles-container">
-      {CARD_DATA.map((item, key) => (
+      {AuctionData.map((item, key) => (
         <Card 
+        onCardClick={() => handleSelection(item.id)}
         key={key}
         image={item.image}
         heading={item.heading}

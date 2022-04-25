@@ -1,0 +1,180 @@
+[
+  {
+    "id": "1",
+    "image": "/images/2.png",
+    "heading": "Kamran",
+    "winningBid": "750 $DUST",
+    "winner": "89",
+    "ends": "02d:04h:2m:2s",
+    "discription": "Kamran is a freelance DeGods and DeadGods were already perfect to begin with. But what does a transformation from one to the other actually look like? Magnum AI has the answer you have been looking for, behold the legendary DeGodnum",
+    "projectDetail": [
+      {
+        "collection": "1",
+        "winners": "1",
+        "nfts": "1"
+      }
+    ],
+    "bidHistory": [
+      {
+        "userName": "CErc....Bfkw",
+        "time": "7 days ago",
+        "dust": "750 $DUST"
+      },
+      {
+        "userName": "CErc....Bfkw",
+        "time": "7 days ago",
+        "dust": "610 $DUST"
+      },
+      {
+        "userName": "CErc....Bfkw",
+        "time": "7 days ago",
+        "dust": "610 $DUST"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "image": "/images/1.jpg",
+    "heading": "Mubeen",
+    "winningBid": "760 $DUST",
+    "winner": "89",
+    "ends": "02d:04h:2m:2s",
+    "discription": "Mubeen is a freelance DeGods and DeadGods were already perfect to begin with. But what does a transformation from one to the other actually look like? Magnum AI has the answer you have been looking for, behold the legendary DeGodnum",
+    "projectDetail": [
+      {
+        "collection": "1",
+        "winners": "3",
+        "nfts": "5"
+      }
+    ],
+    "bidHistory": [
+      {
+        "userName": "4Ai3....KSww",
+        "time": "5 days ago",
+        "dust": "610 $DUST"
+      },
+      {
+        "userName": "CErc....Bfkw",
+        "time": "5 days ago",
+        "dust": "610 $DUST"
+      },
+      {
+        "userName": "CErc....Bfkw",
+        "time": "5 days ago",
+        "dust": "610 $DUST"
+      },
+      {
+        "userName": "CErc....Bfkw",
+        "time": "5 days ago",
+        "dust": "610 $DUST"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "image": "/images/3.gif",
+    "heading": "Asad",
+    "winningBid": "600 $DUST",
+    "winner": "89",
+    "ends": "02d:04h:2m:2s",
+    "discription": "Asad is not a freelance DeGods and DeadGods were already perfect to begin with. But what does a transformation from one to the other actually look like? Magnum AI has the answer you have been looking for, behold the legendary DeGodnum",
+    "projectDetail": [
+      {
+        "collection": "1",
+        "winners": "3",
+        "nfts": "4"
+      }
+    ],
+    "bidHistory": [
+      {
+        "userName": "GS74....Fzv5",
+        "time": "7 days ago",
+        "dust": "600 $DUST"
+      },
+      {
+        "userName": "CErc....Bfkw",
+        "time": "7 days ago",
+        "dust": "600 $DUST"
+      },
+      {
+        "userName": "CErc....Bfkw",
+        "time": "7 days ago",
+        "dust": "600 $DUST"
+      },
+      {
+        "userName": "CErc....Bfkw",
+        "time": "7 days ago",
+        "dust": "600 $DUST"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "image": "/images/2.png",
+    "heading": "DeGods x MagnumAI 2",
+    "winningBid": "760 $DUST",
+    "winner": "89",
+    "ends": "02d:04h:2m:2s",
+    "discription": "DeGods and DeadGods were already perfect to begin with. But what does a transformation from one to the other actually look like? Magnum AI has the answer you have been looking for, behold the legendary DeGodnum",
+    "projectDetail": [
+      {
+        "collection": "1",
+        "winners": "1",
+        "nfts": "1"
+      }
+    ],
+    "bidHistory": [
+      {
+        "userName": "Fi4n....HSD9",
+        "time": "7 days ago",
+        "dust": "610 $DUST"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "image": "/images/1.jpg",
+    "heading": "DeGods x MagnumAI 2",
+    "winningBid": "760 $DUST",
+    "winner": "89",
+    "ends": "02d:04h:2m:2s",
+    "discription": "DeGods and DeadGods were already perfect to begin with. But what does a transformation from one to the other actually look like? Magnum AI has the answer you have been looking for, behold the legendary DeGodnum",
+    "projectDetail": [
+      {
+        "collection": "1",
+        "winners": "1",
+        "nfts": "1"
+      }
+    ],
+    "bidHistory": [
+      {
+        "userName": "CErc....Bfkw",
+        "time": "7 days ago",
+        "dust": "610 $DUST"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "image": "/images/2.png",
+    "heading": "DeGods x MagnumAI 2",
+    "winningBid": "760 $DUST",
+    "winner": "89",
+    "ends": "02d:04h:2m:2s",
+    "discription": "DeGods and DeadGods were already perfect to begin with. But what does a transformation from one to the other actually look like? Magnum AI has the answer you have been looking for, behold the legendary DeGodnum",
+    "projectDetail": [
+      {
+        "collection": "1",
+        "winners": "1",
+        "nfts": "1"
+      }
+    ],
+    "bidHistory": [
+      {
+        "userName": "CErc....Bfkw",
+        "time": "7 days ago",
+        "dust": "610 $DUST"
+      }
+    ]
+  }
+]

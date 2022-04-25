@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "image": "/images/1.jpg",
+    "heading": "Jikan WL",
+    "sold": "245",
+    "winner": "89",
+    "ends": "02d:04h:2m:2s",
+    "tableData": [
+      {
+        "wallet": "eN9zmFLmcDYTMaVcTxYjZqB4Q7Nv5aCMK1YdoBrxHa8",
+        "entries": "2",
+        "claim": "claimed"
+      },
+      {
+        "wallet": "eN9zmFLmcDYTMaVcTxYjZqB4Q7Nv5aCMK1YdoBrxHa8",
+        "entries": "2",
+        "claim": "claimed"
+      },
+      {
+        "wallet": "eN9zmFLmcDYTMaVcTxYjZqB4Q7Nv5aCMK1YdoBrxHa8",
+        "entries": "2",
+        "claim": "claimed"
+      },
+      {
+        "wallet": "eN9zmFLmcDYTMaVcTxYjZqB4Q7Nv5aCMK1YdoBrxHa8",
+        "entries": "2",
+        "claim": "claimed"
+      },
+      {
+        "wallet": "eN9zmFLmcDYTMaVcTxYjZqB4Q7Nv5aCMK1YdoBrxHa8",
+        "entries": "2",
+        "claim": "claimed"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "image": "/images/2.png",
+    "heading": "Jikan ",
+    "sold": "245",
+    "winner": "89",
+    "ends": "02d:04h:2m:2s",
+    "tableData": [
+      {
+        "wallet": "eN9zmFLmcDYTMaVcTxYjZqB4Q7Nv5aCMK1YdoBrxHa8",
+        "entries": "2",
+        "claim": "claimed"
+      },
+      {
+        "wallet": "eN9zmFLmcDYTMaVcTxYjZqB4Q7Nv5aCMK1YdoBrxHa8",
+        "entries": "2",
+        "claim": "claimed"
+      },
+      {
+        "wallet": "eN9zmFLmcDYTMaVcTxYjZqB4Q7Nv5aCMK1YdoBrxHa8",
+        "entries": "2",
+        "claim": "claimed"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "image": "/images/3.gif",
+    "heading": "Jikan asad",
+    "sold": "245",
+    "winner": "89",
+    "ends": "02d:04h:2m:2s",
+    "tableData": [
+      {
+        "wallet": "eN9zmFLmcDYTMaVcTxYjZqB4Q7Nv5aCMK1YdoBrxHa8",
+        "entries": "2",
+        "claim": "claimed"
+      },
+      {
+        "wallet": "eN9zmFLmcDYTMaVcTxYjZqB4Q7Nv5aCMK1YdoBrxHa8",
+        "entries": "2",
+        "claim": "claimed"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "image": "/images/1.jpg",
+    "heading": "mubeen",
+    "sold": "245",
+    "winner": "89",
+    "ends": "02d:04h:2m:2s",
+    "tableData": [
+      {
+        "wallet": "eN9zmFLmcDYTMaVcTxYjZqB4Q7Nv5aCMK1YdoBrxHa8",
+        "entries": "2",
+        "claim": "claimed"
+      },
+      {
+        "wallet": "eN9zmFLmcDYTMaVcTxYjZqB4Q7Nv5aCMK1YdoBrxHa8",
+        "entries": "2",
+        "claim": "claimed"
+      },
+      {
+        "wallet": "eN9zmFLmcDYTMaVcTxYjZqB4Q7Nv5aCMK1YdoBrxHa8",
+        "entries": "2",
+        "claim": "claimed"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "image": "/images/1.jpg",
+    "heading": "kamran",
+    "sold": "245",
+    "winner": "89",
+    "ends": "02d:04h:2m:2s",
+    "tableData": [
+      {
+        "wallet": "eN9zmFLmcDYTMaVcTxYjZqB4Q7Nv5aCMK1YdoBrxHa8",
+        "entries": "2",
+        "claim": "claimed"
+      }
+    ]
+  }
+]
