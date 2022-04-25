@@ -5,10 +5,8 @@ import RaffleDetail from "./components/RaffleDetail"
 import AuctionDetail from "./components/AuctionDetail"
 import {
   Route,
-  Switch,
-  Redirect,
   Routes,
-  BrowserRouter,
+  BrowserRouter
 } from "react-router-dom"
 
 const App = () => {
