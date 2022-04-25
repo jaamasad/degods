@@ -233,9 +233,8 @@ button {
 .auction-message {
   padding: 2.5rem;
   background-color: #7772;
-
   border-radius: 0.25rem;
-  margin: 1rem;
+  margin: 0.5rem;
   text-align: center;
 }
 .auction-message p {
@@ -247,7 +246,7 @@ button {
   padding: 2.5rem;
   background-color: #7772;
   border-radius: 0.25rem;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 .auction-table table {
   width: 100%;
