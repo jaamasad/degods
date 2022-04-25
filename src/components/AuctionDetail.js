@@ -24,10 +24,12 @@ const AuctionDetail = (props) => {
     }
   }, [])
   return (
-    <div className="raffle-detail-container">
+    <div className="raffle-detail-container auction">
       <div className="hero-img">
         <img src="/images/main-img.svg" alt="" />
       </div>
+      <div className="main-container">
+      <div className="left-detail">
       <div className="auction-hero-img profile-img">
         <img src={auctionCardData.image} alt="" />
       </div>
@@ -41,6 +43,8 @@ const AuctionDetail = (props) => {
           0.033 SOL (PHBT).
         </p>
       </div>
+      </div>
+      <div className="right-detail">
       <div className="aution-nav">
         <div className="name-socio">
           <h2>{auctionCardData.name}</h2>
@@ -111,6 +115,8 @@ const AuctionDetail = (props) => {
               ))}
           </tbody>
         </table>
+      </div>
+      </div>
       </div>
     </div>
   )
