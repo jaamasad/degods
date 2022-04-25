@@ -28,7 +28,7 @@ const AuctionDetail = (props) => {
       <div className="hero-img">
         <img src="/images/main-img.svg" alt="" />
       </div>
-      <div className="profile-img">
+      <div className="auction-hero-img profile-img">
         <img src={auctionCardData.image} alt="" />
       </div>
       <div className="desc-container">
@@ -43,7 +43,7 @@ const AuctionDetail = (props) => {
       </div>
       <div className="aution-nav">
         <div className="name-socio">
-          <h1>{auctionCardData.name}</h1>
+          <h2>{auctionCardData.name}</h2>
           <div className="auc-social-icon">
             <a href="#">
               <img src="/images/website.png" />
@@ -93,7 +93,7 @@ const AuctionDetail = (props) => {
         <p>
           {auctionCardData.projectDetail[0] &&
             auctionCardData.bidHistory[0].userName}{" "}
-           won for {auctionCardData.winningBid}
+          won for {auctionCardData.winningBid}
         </p>
       </div>
       <div className="auction-table">
@@ -101,13 +101,14 @@ const AuctionDetail = (props) => {
         <table>
           {console.log(auctionCardData.bidHistory)}
           <tbody>
-            {auctionCardData && auctionCardData.bidHistory.map((td, key) => (
-              <tr key={key}>
-                <td>{td.userName}</td>
-                <td>{td.time}</td>
-                <td>{td.dust}</td>
-              </tr>
-            ))}
+            {auctionCardData &&
+              auctionCardData.bidHistory.map((td, key) => (
+                <tr key={key}>
+                  <td>{td.userName}</td>
+                  <td>{td.time}</td>
+                  <td>{td.dust}</td>
+                </tr>
+              ))}
           </tbody>
         </table>
       </div>
