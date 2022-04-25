@@ -12,8 +12,8 @@ import {
 const App = () => {
   return (
     <div className="app-container">
-      <Header />
       <BrowserRouter>
+      <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/raffle/:id" element={<RaffleDetail />} />
