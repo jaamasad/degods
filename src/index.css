@@ -189,6 +189,8 @@ button {
 .desc-container {
   max-width: 400px;
   margin: auto;
+  box-sizing: border-box;
+  padding: 0 8px;
 }
 .desc-container h2 {
   font-size: 1.5rem;
@@ -226,10 +228,13 @@ button {
   width: 11rem;
   height: 8rem;
   box-sizing: border-box;
-  padding: 2.5rem;
+  padding: 1rem;
   margin: 0.5rem;
   border-radius: 0.25rem;
   background-color: #7772;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .auction-message {
   padding: 2.5rem;
@@ -266,9 +271,98 @@ button {
 }
 .main-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
+.left-detail {
+  margin-top: 54px;
+}
+.disabled {
+  filter: grayscale();
+}
+.raffle-detail-dashboard {
+  display: flex;
+  justify-content: space-around;
+}
+.raffle-detail-dashboard .rf {
+  display: flex;
+  align-items: center;
+}
+.counter-container {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -4px rgb(0 0 0 / 10%);
+  padding: 29px;
+  box-sizing: border-box;
+}
+.img-counter-container {
+  display: flex;
+}
+.counter-img {
+  max-width: 200px;
+}
+.counter-img img {
+  width: 100%;
+}
+.main-raffle-data {
+  display: flex;
+}
+.point-container {
+  padding: 1rem;
+  padding-top: 0;
+  width: 204px;
+}
+.point-container span{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 900;
+}
+.control__btn {
+font-size: 1.25rem;
+line-height: 1.75rem;
+padding: 0.5rem;
+border-radius: 0.25rem;
+width: 2.5rem;
+background: transparent;
+}
+.counter .point-container {
+  padding: 1rem;
+  padding-top: 0;
+  display: flex;
+  width: 204px;
+  align-items: center;
+}
+.counter__output {
+  width: 2rem;
+  height: 38px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+.inc {
+  border: solid red 1px;
+}
+.dec {
+  border: solid green 1px;
+}
+.inc:hover {
+  background-color: red;
+}
+.dec:hover {
+  background-color: green;
+}
+.buy-btn {
+  background-color: #6b73fb;
+  padding: 0.5rem 1rem;
+  width: 185px;
+  border: none;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  color: white;
+  line-height: 1.5rem;
+}
+.buy-btn:hover {
+  background-color: #276aec;;
+}
+/* ===================== counter ======================== */
 @media screen and (max-width: 1340px) {
   .main-container {
     flex-direction: column;
