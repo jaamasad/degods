@@ -1,7 +1,7 @@
 import React from "react"
 
 const Card = (props) => {
-  const { image, heading, sold, winner, ends, auctions, winningBid, onCardClick } = props
+  const { image, heading, sold, winner, ends, auctions, winningBid, onCardClick, raffleClosed } = props
   return (
     <div>
       {auctions ? (
@@ -20,7 +20,7 @@ const Card = (props) => {
           <button className="card-btn">View winners</button>
         </div>
       ) : (
-        <div className="card" onClick={onCardClick}>
+        <div className={`card ${raffleClosed ? "disabled" : ""}`} onClick={onCardClick}>
           <div className="card-img">
             <img src={image} alt="" />
           </div>
@@ -30,9 +30,9 @@ const Card = (props) => {
           </div>
           <div className="end-date">
             <span className="circle" />
-            <p>Ends in : {ends}</p>
+            <p>{raffleClosed ? "Raffle Closed" : `Ends in : ${ends}`}</p>
           </div>
-          <button className="card-btn">Join Raffle</button>
+          <button className="card-btn">{raffleClosed ? "View winners" : "Join Raffle"}</button>
         </div>
       )}
     </div>

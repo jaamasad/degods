@@ -6,6 +6,7 @@
     "sold": "245",
     "winner": "89",
     "ends": "02d:04h:2m:2s",
+    "raffleClosed":false,
     "tableData": [
       {
         "wallet": "eN9zmFLmcDYTMaVcTxYjZqB4Q7Nv5aCMK1YdoBrxHa8",
@@ -32,7 +33,12 @@
         "entries": "2",
         "claim": "claimed"
       }
-    ]
+    ],
+    "dustSpent":"600",
+    "uniqueWallets":"50",
+    "whitelistSpots":"25",
+    "collectionSize":"5000",
+    "ticketPrice":"5"
   },
   {
     "id": "2",
@@ -41,6 +47,7 @@
     "sold": "245",
     "winner": "89",
     "ends": "02d:04h:2m:2s",
+    "raffleClosed":false,
     "tableData": [
       {
         "wallet": "eN9zmFLmcDYTMaVcTxYjZqB4Q7Nv5aCMK1YdoBrxHa8",
@@ -57,7 +64,12 @@
         "entries": "2",
         "claim": "claimed"
       }
-    ]
+    ],
+    "dustSpent":"600",
+    "uniqueWallets":"50",
+    "whitelistSpots":"25",
+    "collectionSize":"5000",
+    "ticketPrice":"5"
   },
   {
     "id": "3",
@@ -65,7 +77,8 @@
     "heading": "Crypto Coral Tribe WL",
     "sold": "245",
     "winner": "89",
-    "ends": "02d:04h:2m:2s",
+    "ends": "",
+    "raffleClosed":true,
     "tableData": [
       {
         "wallet": "eN9zmFLmcDYTMaVcTxYjZqB4Q7Nv5aCMK1YdoBrxHa8",
@@ -77,7 +90,12 @@
         "entries": "2",
         "claim": "claimed"
       }
-    ]
+    ],
+    "dustSpent":"600",
+    "uniqueWallets":"50",
+    "whitelistSpots":"25",
+    "collectionSize":"5000",
+    "ticketPrice":"5"
   },
   {
     "id": "4",
@@ -85,7 +103,8 @@
     "heading": "D.Y.O.R. NERDS",
     "sold": "245",
     "winner": "89",
-    "ends": "02d:04h:2m:2s",
+    "ends": "",
+    "raffleClosed":false,
     "tableData": [
       {
         "wallet": "eN9zmFLmcDYTMaVcTxYjZqB4Q7Nv5aCMK1YdoBrxHa8",
@@ -102,7 +121,12 @@
         "entries": "2",
         "claim": "claimed"
       }
-    ]
+    ],
+    "dustSpent":"600",
+    "uniqueWallets":"50",
+    "whitelistSpots":"25",
+    "collectionSize":"5000",
+    "ticketPrice":"5"
   },
   {
     "id": "5",
@@ -110,13 +134,19 @@
     "heading": "Trippin'ApeTribe",
     "sold": "245",
     "winner": "89",
-    "ends": "02d:04h:2m:2s",
+    "ends": "",
+    "raffleClosed":true,
     "tableData": [
       {
         "wallet": "eN9zmFLmcDYTMaVcTxYjZqB4Q7Nv5aCMK1YdoBrxHa8",
         "entries": "2",
         "claim": "claimed"
       }
-    ]
+    ],
+    "dustSpent":"600",
+    "uniqueWallets":"50",
+    "whitelistSpots":"25",
+    "collectionSize":"5000",
+    "ticketPrice":"5"
   }
 ]

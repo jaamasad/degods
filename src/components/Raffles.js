@@ -19,6 +19,7 @@ const Raffles = () => {
           sold={item.sold}
           winner={item.winner}
           ends={item.ends}
+          raffleClosed={item.raffleClosed}
         />
       ))}
     </div>
