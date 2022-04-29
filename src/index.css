@@ -282,16 +282,19 @@ button {
 }
 .raffle-detail-dashboard {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .raffle-detail-dashboard .rf {
   display: flex;
   align-items: center;
+  margin: 0 20px;
 }
 .counter-container {
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -4px rgb(0 0 0 / 10%);
   padding: 29px;
   box-sizing: border-box;
+  margin: auto;
+  max-width: 750px;
 }
 .img-counter-container {
   display: flex;
@@ -388,5 +391,34 @@ background: transparent;
   }
   .name-socio {
     flex-direction: column;
+  }
+  .raffle-detail-dashboard {
+    flex-direction: column;
+  }
+  .raffle-detail-dashboard .rf {
+    margin: auto;
+  }
+  .img-counter-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .point-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-raffle-data {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-container {
+    display: flex;
+    flex-direction: revert;
+    justify-content: center;
+    margin-bottom: 18px;
+  }
+  .counter-img {
+    margin-bottom: 20px;
+    max-width: 374px;
   }
 }
