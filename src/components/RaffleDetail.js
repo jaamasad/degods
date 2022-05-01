@@ -78,15 +78,15 @@ const RaffleDetail = (props) => {
           <div className="raffle-detail-dashboard">
             <div className="rf">
               <span>🎟️</span>
-              <p>Ticket sold: {raffleCardData.sold}</p>
+              <p>Ticket sold: <b>{raffleCardData.sold}</b></p>
             </div>
             <div className="rf">
               <span>🔥</span>
-              <p>$DUST spent: {raffleCardData.dustSpent}</p>
+              <p>$DUST spent: <b>{raffleCardData.dustSpent}</b></p>
             </div>
             <div className="rf">
               <span>👑</span>
-              <p>Unique wallets: {raffleCardData.uniqueWallets}</p>
+              <p>Unique wallets: <b>{raffleCardData.uniqueWallets}</b></p>
             </div>
           </div>
           <div className="counter-container">

@@ -70,21 +70,21 @@ const AuctionDetail = (props) => {
               <p>{auctionCardData.name}</p>
             </div>
             <div className="box-container">
-              <span>Project</span>
+              <span>Collection</span>
               <p>
                 {auctionCardData.projectDetail[0] &&
                   auctionCardData.projectDetail[0].collection}
               </p>
             </div>
             <div className="box-container">
-              <span>Project</span>
+              <span>Winners</span>
               <p>
                 {auctionCardData.projectDetail[0] &&
                   auctionCardData.projectDetail[0].winners}
               </p>
             </div>
             <div className="box-container">
-              <span>Project</span>
+              <span>NFTs</span>
               <p>
                 {auctionCardData.projectDetail[0] &&
                   auctionCardData.projectDetail[0].nfts}
