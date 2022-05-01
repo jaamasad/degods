@@ -56,7 +56,7 @@ button {
   color: white;
 }
 .card {
-  max-width: 329px;
+  max-width: 250px;
   box-sizing: border-box;
   padding: 1.25rem;
   box-shadow: 0 4px 6px -1px rgb(0 0 0/0.1), 0 2px 4px -2px rgb(0 0 0/0.1);
@@ -66,6 +66,7 @@ button {
   transition: transform 0.4s;
   cursor: pointer;
   margin: 1.25rem;
+  height: 565px;
 }
 .card:hover {
   box-shadow: 0 20px 25px -5px rgb(0 0 0/0.1), 0 8px 10px -6px rgb(0 0 0/0.1);
@@ -156,6 +157,7 @@ button {
   background-clip: text;
   text-align: center;
   -webkit-text-fill-color: transparent;
+  margin-bottom: 0;
 }
 .social-icon {
   display: flex;
@@ -289,6 +291,9 @@ button {
   align-items: center;
   margin: 0 20px;
 }
+.raffle-detail-dashboard .rf span {
+  margin-right: 12px;
+}
 .counter-container {
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -4px rgb(0 0 0 / 10%);
   padding: 29px;
@@ -321,9 +326,9 @@ button {
 .control__btn {
 font-size: 1.25rem;
 line-height: 1.75rem;
-padding: 0.5rem;
 border-radius: 0.25rem;
-width: 2.5rem;
+width: 2rem;
+height: 2rem;
 background: transparent;
 }
 .counter .point-container {
@@ -335,7 +340,7 @@ background: transparent;
 }
 .counter__output {
   width: 2rem;
-  height: 38px;
+  height: 32px;
   border: none;
   outline: none;
   text-align: center;
@@ -420,5 +425,17 @@ background: transparent;
   .counter-img {
     margin-bottom: 20px;
     max-width: 374px;
+  }
+}
+@media screen and (max-width:600px) {
+  .project-detail {
+    flex-direction: column;
+    align-items: center;
+  }
+  .desc-container {
+    padding: 0;
+  }
+  .box-container {
+    width: 96%;
   }
 }
