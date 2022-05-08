@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 import AuctionData from "../Data/AuctionData.json"
+import TicketCounter from "./TicketCounter"
 const AuctionDetail = (props) => {
   const [auctionCardData, setAuctionCardData] = useState({
     name: "",
@@ -8,6 +9,9 @@ const AuctionDetail = (props) => {
     image: "",
     discription: "",
     winningBid: "",
+    auctionClosed: false,
+    aucEnds: "",
+    currentBid: "",
   })
   useEffect(() => {
     for (let i = 0; i < AuctionData.length; i++) {
@@ -19,6 +23,9 @@ const AuctionDetail = (props) => {
           image: AuctionData[i].image,
           discription: AuctionData[i].discription,
           winningBid: AuctionData[i].winningBid,
+          auctionClosed: AuctionData[i].auctionClosed,
+          aucEnds: AuctionData[i].aucEnds,
+          currentBid: AuctionData[i].currentBid,
         })
       }
     }
@@ -91,15 +98,38 @@ const AuctionDetail = (props) => {
               </p>
             </div>
           </div>
-          <div className="auction-message">
-            <p>Auction closed!</p>
-            <p>🎉 Congrats to the winner 🎉</p>
-            <p>
-              {auctionCardData.projectDetail[0] &&
-                auctionCardData.bidHistory[0].userName}{" "}
-              won for {auctionCardData.winningBid}
-            </p>
-          </div>
+          {auctionCardData.auctionClosed ? (
+            <div className="auction-message">
+              <p>Auction closed!</p>
+              <p>🎉 Congrats to the winner 🎉</p>
+              <p>
+                {auctionCardData.projectDetail[0] &&
+                  auctionCardData.bidHistory[0].userName}{" "}
+                won for {auctionCardData.winningBid}
+              </p>
+            </div>
+          ) : (
+            <div className="auction-message auction-container">
+              <div className="msg">
+  <div className="auction-msg">
+                <span>Ends in</span>
+                <p>   {auctionCardData.aucEnds}
+                </p>
+
+              </div>
+              <div className="auction-msg">
+                <span>Current Bid</span>
+                <p>{auctionCardData.currentBid} $DUST</p>
+
+              </div>
+              </div>
+              <p className="more-bids">
+                Bid {Number(auctionCardData.currentBid) + 10} $DUST or more{" "}
+              </p>
+              <TicketCounter auction />
+              <div className="auc-balance">ℹ️ $DUST Balance: 0</div>
+            </div>
+          )}
           <div className="auction-table">
             <p>Bid History</p>
             <table>

@@ -1,23 +1,23 @@
 import React from "react"
 
 const Card = (props) => {
-  const { image, heading, sold, winner, ends, auctions, winningBid, onCardClick, raffleClosed } = props
+  const { image, heading, sold, winner, ends, auctions, winningBid, onCardClick, raffleClosed, auctionClosed, currentBid, aucEnds } = props
   return (
     <div>
       {auctions ? (
-        <div className="card auction" onClick={onCardClick}>
+        <div className={`card auction ${auctionClosed ? "disabled" : ""}`} onClick={onCardClick}>
           <div className="card-img">
             <img src={image} alt="" />
           </div>
           <h2>{heading}</h2>
           <div className="sold-winner">
-            <span>Winning Bid:</span> <p>{winningBid}</p>
+            <span>{auctionClosed ? "Winning" : "Current"} Bid:</span> <p>{auctionClosed ? winningBid: currentBid+" $DUST" }</p>
           </div>
           <div className="end-date">
             <span className="circle" />
-            <p>Auction closed!</p>
+            <p>{auctionClosed ? "Auction closed!" :'Ends in:' + aucEnds}</p>
           </div>
-          <button className="card-btn">View winners</button>
+          <button className="card-btn">{auctionClosed ? "View winners": "View Auction"} </button>
         </div>
       ) : (
         <div className={`card ${raffleClosed ? "disabled" : ""}`} onClick={onCardClick}>
