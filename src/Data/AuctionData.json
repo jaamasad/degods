@@ -5,7 +5,9 @@
     "heading": "DeGods x Curi◎us Creature Collective",
     "winningBid": "750 $DUST",
     "winner": "89",
-    "ends": "02d:04h:2m:2s",
+    "aucEnds": "02d:04h:2m:2s",
+    "auctionClosed":false,
+    "currentBid":"250",
     "discription": "DeGods and DeadGods were already perfect to begin with. But what does a transformation from one to the other actually look like? Magnum AI has the answer you have been looking for, behold the legendary DeGodnum",
     "projectDetail": [
       {
@@ -39,6 +41,8 @@
     "winningBid": "760 $DUST",
     "winner": "89",
     "ends": "02d:04h:2m:2s",
+    "auctionClosed":true,
+    "currentBid":"254 $DUST",
     "discription": "DeGods and DeadGods were already perfect to begin with. But what does a transformation from one to the other actually look like? Magnum AI has the answer you have been looking for, behold the legendary DeGodnum",
     "projectDetail": [
       {
@@ -77,6 +81,8 @@
     "winningBid": "600 $DUST",
     "winner": "89",
     "ends": "02d:04h:2m:2s",
+    "auctionClosed":true,
+    "currentBid":"254 $DUST",
     "discription": "DeGods and DeadGods were already perfect to begin with. But what does a transformation from one to the other actually look like? Magnum AI has the answer you have been looking for, behold the legendary DeGodnum",
     "projectDetail": [
       {
@@ -115,6 +121,8 @@
     "winningBid": "760 $DUST",
     "winner": "89",
     "ends": "02d:04h:2m:2s",
+    "auctionClosed":true,
+    "currentBid":"254 $DUST",
     "discription": "DeGods and DeadGods were already perfect to begin with. But what does a transformation from one to the other actually look like? Magnum AI has the answer you have been looking for, behold the legendary DeGodnum",
     "projectDetail": [
       {
@@ -138,6 +146,8 @@
     "winningBid": "760 $DUST",
     "winner": "89",
     "ends": "02d:04h:2m:2s",
+    "auctionClosed":true,
+    "currentBid":"254 $DUST",
     "discription": "DeGods and DeadGods were already perfect to begin with. But what does a transformation from one to the other actually look like? Magnum AI has the answer you have been looking for, behold the legendary DeGodnum",
     "projectDetail": [
       {
@@ -161,6 +171,8 @@
     "winningBid": "760 $DUST",
     "winner": "89",
     "ends": "02d:04h:2m:2s",
+    "auctionClosed":true,
+    "currentBid":"254 $DUST",
     "discription": "DeGods and DeadGods were already perfect to begin with. But what does a transformation from one to the other actually look like? Magnum AI has the answer you have been looking for, behold the legendary DeGodnum",
     "projectDetail": [
       {

@@ -21,6 +21,9 @@ const Auctions = () => {
         ends={item.ends}
         winningBid={item.winningBid}
         auctions
+        auctionClosed={item.auctionClosed}
+        currentBid={item.currentBid}
+        aucEnds={item.aucEnds}
         />
       ))}
     </div>
